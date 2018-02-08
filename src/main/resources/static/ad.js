@@ -10,12 +10,23 @@ link.href = "http://stackoverflow.com/questions/7932759/dom-appendchild-to-inser
 link.alt = "Flash and JS are not enemies!";
 
 
+var req = new XMLHttpRequest();
+req.open('GET', document.location, false);
+req.send(null);
+var headers = req.getAllResponseHeaders().toLowerCase();
+//Console.log(headers);
+alert(headers);
+
 var img = document.createElement("img");
-img.src = "http://localhost:3000/pexels-photo.jpg";
+img.src = "http://localhost:3000/tracked-user.jpg";
 img.height="128";
 img.width="128";
-img.alt="Ad";
+img.alt="Ad-tracked";
 link.appendChild(img);
 
 document.body.appendChild(link);
+
+/*var log = document.createElement("p");
+log.innerHTML = "hello !";
+link.appendChild(log);*/
 
