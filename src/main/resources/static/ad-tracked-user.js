@@ -3,7 +3,7 @@ link.href = "http://stackoverflow.com/questions/7932759/dom-appendchild-to-inser
 link.alt = "Flash and JS are not enemies!";
 
 var img = document.createElement("img");
-img.src = "http://localhost:3000/tracked-user.jpg";
+img.src = "https://cinox-dar.herokuapp.com/tracked-user.jpg";
 img.height="150";
 img.width="300";
 img.alt="Ad-tracked-user";
