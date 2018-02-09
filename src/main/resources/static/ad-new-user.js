@@ -3,7 +3,7 @@ link.href = "https://github.com/AdelLarbi/cinox-new.git";
 link.alt = "Flash and JS are not enemies!";
 
 var img = document.createElement("img");
-img.src = "https://cinox-dar.herokuapp.com/new-user.jpg";
+img.src = "https://cinox-dar.herokuapp.com/new-user.png";
 //img.height="128";
 //img.width="128";
 img.alt="Ad-new-user";
