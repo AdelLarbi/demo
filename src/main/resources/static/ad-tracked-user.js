@@ -4,8 +4,7 @@ link.alt = "Ads project github repository";
 
 var img = document.createElement("img");
 img.src = "https://cinox-dar.herokuapp.com/tracked-user.png";
-//img.height="150";
-//img.width="300";
+img.class="advertisement";
 img.id="Ad-tracked-user";
 img.alt="Ad-tracked-user";
 link.appendChild(img);

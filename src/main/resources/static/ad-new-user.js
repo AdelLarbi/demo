@@ -4,8 +4,7 @@ link.alt = "Cinox project github repository";
 
 var img = document.createElement("img");
 img.src = "https://cinox-dar.herokuapp.com/new-user.png";
-//img.height="128";
-//img.width="128";
+img.class="advertisement";
 img.id="Ad-new-user";
 img.alt="Ad-new-user";
 link.appendChild(img);
